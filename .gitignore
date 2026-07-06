@@ -1,0 +1,8 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dtsx.user
+*.database
+*.dtsConfig
