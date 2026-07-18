@@ -13,7 +13,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\Users\USER\Desktop\stage data\S3\Promotions.csv">
+      DTS:ConnectionString="C:\Users\USER\Desktop\PE_DW_ETL_Repo\data\Promotions.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -22,7 +22,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="PromotionKey"
-          DTS:DTSID="{264FD47B-EA05-47E0-864A-41872182EA82}"
+          DTS:DTSID="{EC82CF44-AE72-4849-919D-4DDCE21EBCE2}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="PromotionName"
-          DTS:DTSID="{87934771-0249-42EC-AA10-92E702BA17C3}"
+          DTS:DTSID="{FA487293-D625-4E23-8040-28997A1817AC}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

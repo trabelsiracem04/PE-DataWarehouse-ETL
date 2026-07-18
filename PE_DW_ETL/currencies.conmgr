@@ -13,7 +13,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\Users\USER\Desktop\stage data\S3\Currencies.csv">
+      DTS:ConnectionString="C:\Users\USER\Desktop\PE_DW_ETL_Repo\data\Currencies.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -22,7 +22,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="CurrencyKey"
-          DTS:DTSID="{29870172-3D30-409A-AAF3-CBBD1D5F0369}"
+          DTS:DTSID="{C044DB85-1114-45ED-853D-01A0A70E676B}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="CurrencyAlternateKey"
-          DTS:DTSID="{1E2C6067-3F0A-4226-B82A-4BFAFF50EA3D}"
+          DTS:DTSID="{290B5EA4-9B7D-499C-A5CF-960084FEE397}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

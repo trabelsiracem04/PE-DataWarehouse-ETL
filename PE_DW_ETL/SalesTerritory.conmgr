@@ -13,7 +13,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\Users\USER\Desktop\stage data\S3\SalesTerritory.csv">
+      DTS:ConnectionString="C:\Users\USER\Desktop\PE_DW_ETL_Repo\data\SalesTerritory.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -22,7 +22,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="SalesTerritoryKey"
-          DTS:DTSID="{1B6681BD-DA99-4232-BE4F-05A4098DA895}"
+          DTS:DTSID="{91FE1C7E-4364-49F7-9D4B-B85052D21A58}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="SalesTerritoryRegion"
-          DTS:DTSID="{29D494E3-44D1-4C03-BA7F-DE4423F7DE8D}"
+          DTS:DTSID="{F503444C-EEE2-4954-8410-75999C85C510}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -40,7 +40,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="SalesTerritoryCountry"
-          DTS:DTSID="{2B02AED7-A516-479A-A961-8F91BB4BDD7C}"
+          DTS:DTSID="{7C8A1728-6E74-40D5-AD73-51E9A09333D4}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -49,7 +49,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="SalesTerritoryGroup"
-          DTS:DTSID="{A60CCEDA-8F97-460B-BEAB-81241415CA6C}"
+          DTS:DTSID="{9748C313-EA59-4372-BB1B-022E39120031}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

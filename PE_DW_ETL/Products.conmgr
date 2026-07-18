@@ -13,7 +13,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\Users\USER\Desktop\stage data\S3\Products.csv">
+      DTS:ConnectionString="C:\Users\USER\Desktop\PE_DW_ETL_Repo\data\Products.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -22,7 +22,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductKey"
-          DTS:DTSID="{9BE49464-24D0-495C-A94A-FED279E82417}"
+          DTS:DTSID="{B4BBEC51-0C41-4F41-A2DB-74F755F4FAC9}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Productname"
-          DTS:DTSID="{9F99F0CC-9AC3-4115-A31E-5CB47C8DB010}"
+          DTS:DTSID="{D053CCFD-9755-4FE4-80D1-91A1818BE9F3}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

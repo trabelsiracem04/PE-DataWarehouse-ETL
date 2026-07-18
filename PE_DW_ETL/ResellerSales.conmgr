@@ -12,7 +12,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\Users\USER\Desktop\stage data\S3\ResellerSales.csv">
+      DTS:ConnectionString="C:\Users\USER\Desktop\PE_DW_ETL_Repo\data\ResellerSales.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -21,7 +21,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="SaleID"
-          DTS:DTSID="{7D1F73EF-2E56-4368-93FA-D8A1D257F5B0}"
+          DTS:DTSID="{52C232D3-7B40-4B00-8751-87F8DDD280FD}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -29,7 +29,7 @@
           DTS:DataType="2"
           DTS:TextQualified="True"
           DTS:ObjectName="ResellerKey"
-          DTS:DTSID="{C52226E9-3DBB-48B0-AE5B-E4E9747CEBD4}"
+          DTS:DTSID="{27061B6D-17D0-4348-BB24-B0CDB76ED18C}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

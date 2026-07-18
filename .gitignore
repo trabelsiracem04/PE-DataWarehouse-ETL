@@ -1,8 +1,13 @@
 .vs/
 bin/
 obj/
+Debug/
+Release/
+
 *.user
 *.suo
-*.dtsx.user
-*.database
-*.dtsConfig
+*.cache
+*.dbmdl
+
+*.bak
+*.log

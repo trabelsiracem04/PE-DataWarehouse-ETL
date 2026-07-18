@@ -12,7 +12,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\Users\USER\Desktop\stage data\S3\Sales.csv">
+      DTS:ConnectionString="C:\Users\USER\Desktop\PE_DW_ETL_Repo\data\Sales.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -21,7 +21,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="SaleID"
-          DTS:DTSID="{6A90C884-D18F-4F65-AFC4-84D8FFE0CA6E}"
+          DTS:DTSID="{37A22CE8-7997-4171-BA2B-5139B3D58347}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -29,7 +29,7 @@
           DTS:DataType="135"
           DTS:TextQualified="True"
           DTS:ObjectName="OrderDate"
-          DTS:DTSID="{6C64997F-E7C6-4E0B-928E-94720F69306F}"
+          DTS:DTSID="{5CDCFE44-F1F6-4A08-8DE9-9BE599AECBD1}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -37,7 +37,7 @@
           DTS:DataType="2"
           DTS:TextQualified="True"
           DTS:ObjectName="OrderQuantity"
-          DTS:DTSID="{6290E48C-84D7-4C24-A8A7-3013186E4645}"
+          DTS:DTSID="{B74FBE72-E03D-4D5C-BDC1-6BC0E31FC694}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -46,7 +46,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="UnitPrice"
-          DTS:DTSID="{30F23762-180D-49B3-B67E-E7F0E54B9C44}"
+          DTS:DTSID="{E0BD8B98-8DF9-4DE2-A495-E8FDF8B79034}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -54,7 +54,7 @@
           DTS:DataType="2"
           DTS:TextQualified="True"
           DTS:ObjectName="PromotionKey"
-          DTS:DTSID="{392490D3-CBC2-402E-914B-23236FF14C45}"
+          DTS:DTSID="{E406C661-0968-4A0A-9632-74DBE1F38E77}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -62,7 +62,7 @@
           DTS:DataType="2"
           DTS:TextQualified="True"
           DTS:ObjectName="CurrencyKey"
-          DTS:DTSID="{26D5ED19-17D3-4E23-9EB1-2FEEF2BCAB3C}"
+          DTS:DTSID="{E2AA0B65-2051-402F-BBAE-A83350608ECA}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -70,7 +70,7 @@
           DTS:DataType="2"
           DTS:TextQualified="True"
           DTS:ObjectName="SalesTerritoryKey"
-          DTS:DTSID="{253AEC09-488B-407B-BD85-83FFAEDE3C4A}"
+          DTS:DTSID="{68E43CF7-8B99-478B-A46A-82CD185A48F2}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

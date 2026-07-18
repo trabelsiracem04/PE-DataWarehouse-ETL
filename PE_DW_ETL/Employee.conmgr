@@ -13,7 +13,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x0022_"
       DTS:CodePage="1252"
-      DTS:ConnectionString="C:\Users\USER\Desktop\stage data\S3\Employees.csv">
+      DTS:ConnectionString="C:\Users\USER\Desktop\PE_DW_ETL_Repo\data\Employees.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -22,7 +22,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="EmployeeKey"
-          DTS:DTSID="{94CE008D-597C-4584-9583-59CBBBFBF0D8}"
+          DTS:DTSID="{0EF04ACE-0DC4-4474-AB7B-1D24123EE375}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -31,7 +31,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="FirstName"
-          DTS:DTSID="{14803736-3D11-47C2-989C-C60EB78F9A8E}"
+          DTS:DTSID="{6F4825DC-F4A1-47E0-8F6A-6091A66777E8}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -40,7 +40,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="LastName"
-          DTS:DTSID="{01FA2FE3-4D28-432A-82EF-B25F01305309}"
+          DTS:DTSID="{99C663A9-1233-46AE-8226-A9F917A0B504}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -49,7 +49,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Title"
-          DTS:DTSID="{017C7944-CB08-4AB4-9D49-18D1754A2112}"
+          DTS:DTSID="{AAD643BF-1E2F-4469-A14C-02F5B8681CDF}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
