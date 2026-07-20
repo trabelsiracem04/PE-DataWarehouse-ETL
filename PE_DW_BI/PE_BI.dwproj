@@ -8,36 +8,36 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>MyCube.cube</Name>
-      <FullPath>MyCube.cube</FullPath>
+      <Name>My Data Warehouse.cube</Name>
+      <FullPath>My Data Warehouse.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>MyCube.partitions</Name>
-          <FullPath>MyCube.partitions</FullPath>
+          <Name>My Data Warehouse.partitions</Name>
+          <FullPath>My Data Warehouse.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Dim Products.dim</Name>
-      <FullPath>Dim Products.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Resellers.dim</Name>
-      <FullPath>Dim Resellers.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Promotion.dim</Name>
-      <FullPath>Dim Promotion.dim</FullPath>
+      <Name>Dim Currencies.dim</Name>
+      <FullPath>Dim Currencies.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Employee.dim</Name>
       <FullPath>Dim Employee.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Currencies.dim</Name>
-      <FullPath>Dim Currencies.dim</FullPath>
+      <Name>Dim Products.dim</Name>
+      <FullPath>Dim Products.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Promotion.dim</Name>
+      <FullPath>Dim Promotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Resellers.dim</Name>
+      <FullPath>Dim Resellers.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Sales Territory.dim</Name>
@@ -68,14 +68,14 @@
           <ConfigurationSetting>
             <Id>My Data Warehouse</Id>
             <Name>My Data Warehouse</Name>
-            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL.1;Data Source=pc-de-tipon;Persist Security Info=True;Password=;User ID=;Initial Catalog=MyDataWarehouse</Value>
+            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL.1;Data Source=pc-de-tipon;Integrated Security=SSPI;Initial Catalog=MyDataWarehouse</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>My Data Warehouse</Id>
             <Name>My Data Warehouse</Name>
-            <Value xsi:type="xsd:int">1</Value>
+            <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>

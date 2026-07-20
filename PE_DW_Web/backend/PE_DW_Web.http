@@ -1,0 +1,6 @@
+@PE_DW_Web_HostAddress = http://localhost:5125
+
+GET {{PE_DW_Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
